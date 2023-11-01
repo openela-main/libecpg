@@ -1,0 +1,13 @@
+diff --git a/src/interfaces/libpq/Makefile b/src/interfaces/libpq/Makefile
+index 32a9fdfb7b..899de131da 100644
+--- a/src/interfaces/libpq/Makefile
++++ b/src/interfaces/libpq/Makefile
+@@ -76,8 +76,6 @@ SHLIB_PREREQS = submake-libpgport
+ 
+ SHLIB_EXPORTS = exports.txt
+ 
+-all: all-lib
+-
+ # Shared library stuff
+ include $(top_srcdir)/src/Makefile.shlib
+ backend_src = $(top_srcdir)/src/backend
